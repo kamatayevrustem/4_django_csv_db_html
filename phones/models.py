@@ -4,7 +4,6 @@ MAX_LEN = 255
 
 
 class Phone(models.Model):
-    # TODO: Добавьте требуемые поля
     name = models.CharField(
         max_length=MAX_LEN
     )
